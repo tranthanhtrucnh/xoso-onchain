@@ -1,8 +1,8 @@
-import { useState } from "react";
-import { MuaVePage } from "./pages/MuaVePage";
-import { KetQuaPage } from "./pages/KetQuaPage";
-import { VeCuaToiPage } from "./pages/VeCuaToiPage";
-import { AdminPage } from "./pages/AdminPage";
+﻿import { useState } from "react";
+import { MuaVePage } from "./components/MuaVePage";
+import { KetQuaPage } from "./components/KetQuaPage";
+import { VeCuaToiPage } from "./components/VeCuaToiPage";
+import { AdminPage } from "./components/AdminPage";
 import "./styles/globals.css";
 
 type Page = "mua-ve" | "ket-qua" | "ve-cua-toi" | "admin";

@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import "./KetQuaPage.css";
+﻿import { useState, useEffect } from "react";
+
 
 // Mock data kết quả
 const MOCK_KET_QUA = {

@@ -1,5 +1,5 @@
-import { useState, useCallback } from "react";
-import "./MuaVePage.css";
+﻿import { useState, useCallback } from "react";
+
 
 type DaiId =
   | "TPHCM" | "DONG_THAP" | "CA_MAU" | "BEN_TRE" | "VUNG_TAU"

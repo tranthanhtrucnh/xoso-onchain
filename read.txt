@@ -1,0 +1,20 @@
+Compiling, may take a little while to download git dependencies...
+INCLUDING DEPENDENCY AptosFramework
+INCLUDING DEPENDENCY AptosStdlib
+INCLUDING DEPENDENCY MoveStdlib
+BUILDING xoso_mien_nam
+package size 9383 bytes
+Transaction submitted: https://explorer.aptoslabs.com/txn/0xea32fdb4cf302520e51724cbd69356bdb05e638a80544e909b7ed90f46f9e9dd?network=testnet
+{
+  "Result": {
+    "transaction_hash": "0xea32fdb4cf302520e51724cbd69356bdb05e638a80544e909b7ed90f46f9e9dd",
+    "gas_used": 51229,
+    "gas_unit_price": 100,
+    "sender": "aff0ee2f46249a3fc614f2008d43cb8e2d4e573e4c4ba14be457a1fd4308412c",
+    "sequence_number": 69,
+    "success": true,
+    "timestamp_us": 1778928852224913,
+    "version": 8789774617,
+    "vm_status": "Executed successfully"
+  }
+}

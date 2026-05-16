@@ -1,0 +1,19 @@
+﻿[package]
+name = "xoso_mien_nam"
+version = "0.1.0"
+authors = ["XoSo Team"]
+
+[addresses]
+xoso = "0xaff0ee2f46249a3fc614f2008d43cb8e2d4e573e4c4ba14be457a1fd4308412c"
+aptos_framework = "0x1"
+aptos_std = "0x1"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "aptos-node-v1.14.0"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dependencies.AptosStdlib]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "aptos-node-v1.14.0"
+subdir = "aptos-move/framework/aptos-stdlib"

@@ -220,7 +220,7 @@ export function MuaVePage({ walletAddress, onConnectWallet }: Props) {
                 <span className="confirm-value text-sm">Shelby decentralized storage</span>
               </div>
               <div className="confirm-row">
-                <span className="confirm-label">{t.xac_nhan_on_chain}</span>
+                <span className="confirm-label">{lang === "vi" ? "Xác nhận" : "Confirmation"}</span>
                 <span className="confirm-value text-sm">Aptos blockchain · On-chain</span>
               </div>
             </div>
